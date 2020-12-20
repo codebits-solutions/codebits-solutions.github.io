@@ -27,10 +27,60 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+        .get-in-touch{
+            position: fixed;
+            bottom: 70px;
+            right: 100px;
+            z-index: 100;
+        }
+        .size{
+            font-size: 49px;
+        }
+        .popup-form{
+            background: url('./img/popup-bg.jpg');
+            background-position: center center;
+            background-size: cover;
+        }
+        .title-modal{
+            font-weight:700;
+            font-size: 55px;
+            color: white;
+            padding-left:15px;
+        }
+
+        button.close {
+        color: #fff!important;
+        font-size: 34px;
+        text-align: center;
+        text-shadow: none;
+        outline: none;
+    }
+
+    .call-in{
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 100;
+    }
+    .call-in > i{
+            font-size: 49px;
+            color: #3D960B;
+    }
+
+</style>
 
 </head>
 
 <body>
+
+  <div class="get-in-touch" >
+      <a href="mailto:pavandeore90@gmail.com"><img class="size" src="./assets/img/mail.png" /></a>
+  </div>
+
+  <div class="call-in">
+      <a href="https://wa.me/919975470482"><img class="size" src="./assets/img/whatsapp.png" /></a>
+  </div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -54,22 +104,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul class="nav-inner">
           <li class="active"><a href="index.html">Home</a></li>
-          <li class="drop-down"><a href="">About</a>
-            <ul>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#team">Team</a></li>
-
-              <!-- <li class="drop-down"><a href="#">Deep Drop</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-            </ul>
-          </li>
+          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
 
           <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a></li>
@@ -92,32 +127,31 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
             <div class="image">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="">
+              <img src="assets/img/about.svg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-left">
             <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
-              <p class="font-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
+              <h3>Who we are?</h3>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum
+                We are startup company that was started a year ago with primary focus on Web Developemnt Domain and related services.
               </p>
+              <p>
+                Codebits-Solutions is an independent customer experience agency with technology at its core.
+              </p>
+              <h3>Our strategy </h3>
+              <ul>
+                <li><i class="bx bx-check-double"></i> Design.</li>
+                <li><i class="bx bx-check-double"></i> Develop.</li>
+                <li><i class="bx bx-check-double"></i> Deploy.</li>
+              </ul>
+              <p>we create impactful digital experiences for website development services, 
+                which are driven by insight, strategy, design, and technology.</p>
             </div>
           </div>
         </div>
@@ -131,30 +165,20 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+          <p>We don't just sell websites, we create websites that SELLS</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
-              <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-            </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
               <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <h4>Website Development</h4>
+              <p>Complete website development from Frontend To Backend (Fullstack) solutions. We have a team of talented developers will work on project from Design to Deployment.</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <h4>Social Media Marketing</h4>
+              <p>Social media is huge and your customers spends lots of time on these platforms, it’s crucial to make your presence felt on these platforms. We will help you to build your presence.</p>
             </div>
           </div>
           <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/services.jpg");' data-aos="fade-left" data-aos-delay="100"></div>
@@ -164,7 +188,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Featured Section ======= -->
-    <section id="featured" class="featured">
+    <!-- <section id="featured" class="featured">
       <div class="container">
 
         <div class="row">
@@ -223,10 +247,11 @@
         </div>
 
       </div>
-    </section><!-- End Featured Section -->
+    </section> -->
+    <!-- End Featured Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <!-- <section id="why-us" class="why-us">
       <div class="container-fluid">
 
         <div class="row">
@@ -281,7 +306,8 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section> -->
+    <!-- End Why Us Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -289,31 +315,30 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+          <p>Projects we have completed.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">App</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Web 3</h4>
+                <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="https://pavandeore.github.io" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -321,19 +346,33 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio2.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="https://shubhamawale.github.io" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/netart.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/netart.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="https://netartassign.netlify.app" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -345,91 +384,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -437,7 +392,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
           <i class="bx bxs-quote-right"></i>
@@ -492,10 +447,13 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+     -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+
+    <!-- <section id="clients" class="clients">
       <div class="container">
 
         <div class="row">
@@ -527,10 +485,12 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section> -->
+    
+    <!-- End Clients Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!-- <section id="team" class="team">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -600,7 +560,9 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    
+    <!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg">
@@ -615,19 +577,18 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Silver</h3>
-              <h4><sup>₹</sup>4000</h4>
+              <h3>Personal</h3>
+              <h4><sup>₹</sup>2000</h4>
               <ul>
                 <li>Static Website</li>
                 <li>Responsive Website</li>
-                <li>Maximum Pages - 3</li>
+                <li>Maximum Pages - 2</li>
                 <li>Free Basic On-page SEO</li>
                 <li>Free Support - For 1 Year</li>
                 <li>SSL Certificate</li>
-                <li>Get in Touch Option & Social Media Links </li>
+                <li>Social Media Links </li>
                 <li class="na">Contact Form</li>
                 <li class="na">Professional Email Account - 1</li>
-                <li class="na">Wordpress Installation </li>
                 <li class="na">Databases</li>
                 <li class="na">Ecommerce Store Setup</li>
                 <li>Domain & Hosting 1GB - For 1 Year</li>
@@ -641,10 +602,10 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended" data-aos="zoom-in">
               <span class="recommended-badge">Recommended</span>
-              <h3>Gold</h3>
-              <h4><sup>₹</sup>10000</h4>
+              <h3>Business</h3>
+              <h4><sup>₹</sup>5000</h4>
               <ul>
-                <li>Static Website</li>
+                <li>Dynamic Website</li>
                 <li>Responsive Website</li>
                 <li>Maximum Pages - 5</li>
                 <li>Free Basic On-page SEO</li>
@@ -653,10 +614,9 @@
                 <li>Get in Touch Option & Social Media Links</li>
                 <li>Contact Form</li>
                 <li>Professional Email Account - 1</li>
-                <li>Wordpress Installation </li>
                 <li class="na">Databases</li>
                 <li class="na">Ecommerce Store Setup</li>
-                <li>Domain & Hosting 5GB - For 1 Year</li>
+                <li>Domain & Hosting 2GB - For 1 Year</li>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -666,8 +626,8 @@
 
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Platinum</h3>
-              <h4><sup>₹</sup>30000</h4>
+              <h3>Enterprise</h3>
+              <h4><sup>₹</sup>20000</h4>
               <ul>
                 <li>Dynamic Website</li>
                 <li>Responsive Website</li>
@@ -678,10 +638,9 @@
                 <li>Get in Touch Option & Social Media Links</li>
                 <li>Contact Form</li>
                 <li>Professional Email Account - 3</li>
-                <li>Wordpress Installation </li>
                 <li>Databases</li>
                 <li>Ecommerce Store Setup</li>
-                <li>Domain & Hosting 10GB - For 1 Year</li>
+                <li>Domain & Hosting 5GB - For 1 Year</li>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -708,7 +667,7 @@
             <a data-toggle="collapse" class="collapsed" href="#faq1">Can I Extend Domain & Hosting Packages? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq1" class="collapse" data-parent=".faq-list">
               <p>
-                Yes. 5000₹ Per Year for Domain & Hosting. 
+                Yes. 1000₹ Per Year for Domain & for Hosting depend on selected plan. 
               </p>
             </div>
           </li>
@@ -726,12 +685,12 @@
             <a data-toggle="collapse" href="#faq3" class="collapsed">Can I Extend the Support for my project? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq3" class="collapse" data-parent=".faq-list">
               <p>
-                Yes. 1000₹ Per Year.
+                Yes. 2000₹ Per Year.
               </p>
             </div>
           </li>
 
-          <li data-aos="fade-up" data-aos-delay="300">
+          <!-- <li data-aos="fade-up" data-aos-delay="300">
             <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq4" class="collapse" data-parent=".faq-list">
               <p>
@@ -756,7 +715,7 @@
                 Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
               </p>
             </div>
-          </li>
+          </li> -->
 
         </ul>
 
