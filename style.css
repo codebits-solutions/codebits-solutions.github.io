@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Noto Sans SC';
+    src: url('./fonts/NotoSansSC-Regular.otf');
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header-text{
+    padding-top: 15px;
+    height: 18vh;
+    background: rgb(40,191,187);
+    background: linear-gradient(52deg, rgba(40,191,187,1) 0%, rgba(99,99,200,0.6446953781512605) 58%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans SC';
+    font-size: 2rem;
+}
+.tag-line{
+    font-size: 1rem;
+    margin-left: 70px;
+}
+.compo-1{
+    background-image: url('./bg-1.jpg');
+    height: 80vh;
+}
+.container{
+    height:100vh;
+}
