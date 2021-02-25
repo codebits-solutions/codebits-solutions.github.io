@@ -2,6 +2,9 @@
     font-family: 'Noto Sans SC';
     src: url('./fonts/NotoSansSC-Regular.otf');
 }
+*{
+    cursor: url("./cursor.png"), auto;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -22,8 +25,10 @@ html{
 }
 .compo-1{
     background-image: url('./bg-1.jpg');
-    height: 80vh;
+    height: 60vh;
 }
-.container{
-    height:100vh;
+.footer{
+    padding: 25px;
+    text-align: center;
+    background: black;
 }

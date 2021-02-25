@@ -14,6 +14,11 @@
 
 </head>
 <body>
+
+    <div class="cart-parent">
+        <div class="cart"></div>
+    </div>
+
     <div class="header-text">
         Codebits Solutions
         <div class="tag-line"> &lt; code &gt; that you were looking for...</div>
@@ -40,51 +45,17 @@
     </div>
 
     <div class="container" id="container">
-        <div class="uk-card uk-card-default uk-padding uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-            <div class="uk-card-media-left uk-cover-container">
-                <img src="bg-1.jpg" alt="" uk-cover>
-                <canvas width="600" height="250"></canvas>
-            </div>
-            <div>
-                <div class="uk-card-body">
-                    <h3 class="uk-card-title">Instagram Feed API</h3>
-                    <p><b>Description</b>: Display Your Instagram Latest Posts on Your Website. Full Support Guide with HTML CSS JS CODE Files. </p>
-                    <div uk-lightbox class="uk-margin">
-                        <button class="uk-button uk-button-default uk-margin-small-right uk-margin-small-top" type="button" uk-toggle="target: #modal-close-default">Read More</button>
-                        <a class="uk-button uk-button-default uk-margin-small-right uk-margin-small-top" href="./videos/vid-1.mp4" data-caption="">Demo</a>
-                        <button class="uk-button uk-button-secondary uk-margin-small-right uk-margin-small-top">Purchase</button>
-                    </div> 
-                </div>
-            </div>
-        </div>
-
-        <div class="uk-card uk-card-default uk-padding uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-            <div class="uk-card-media-left uk-cover-container">
-                <img src="bg-1.jpg" alt="" uk-cover>
-                <canvas width="600" height="250"></canvas>
-            </div>
-            <div>
-                <div class="uk-card-body">
-                    <h3 class="uk-card-title">Instagram Feed API</h3>
-                    <p><b>Description</b>: Display Your Instagram Latest Posts on Your Website. Full Support Guide with HTML CSS JS CODE Files. </p>
-                    <div uk-lightbox class="uk-margin">
-                        <button class="uk-button uk-button-default uk-margin-small-right uk-margin-small-top" type="button" uk-toggle="target: #modal-close-default">Read More</button>
-                        <a class="uk-button uk-button-default uk-margin-small-right uk-margin-small-top" href="./videos/vid-1.mp4" data-caption="">Demo</a>
-                        <button class="uk-button uk-button-secondary uk-margin-small-right uk-margin-small-top">Purchase</button>
-                    </div> 
-                </div>
-            </div>
-        </div>
+        <!-- Dynamic Data From DATA Array -->
     </div>
 
-    <!-- This is the READ MORE modal with the default close button -->
-    <div id="modal-close-default" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body">
-            <button class="uk-modal-close-default" type="button" uk-close></button>
-            <h2 class="uk-modal-title">Description</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+    
+    <div id="main-modal">
+        <!-- Long Desc Modal Data -->
     </div>
+
+    <footer class="footer">
+        &copy; 2021 CODEBITSOLUTONS
+    </footer>
 
 
     <script type="module" src="./appp.js"></script>
